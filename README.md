@@ -1,5 +1,8 @@
 # Assignment
 
+## General Information
+This assignment project sets up an API which adds organizations and their relations (parent->child) into a database with a POST request and ouputs a given organization with all its relationships (parent, sister, daughter) on a GET request. 
+
 ## Requirements
 1. PHP >=7.4.3
 2. MySQL >=8.0
@@ -11,10 +14,10 @@
 4. OPTIONAL: Run tests/populateDB.php to populate the database with example data.
 
 ### Sending POST and GET requests
-1. POST requests have to be sent to localhost:8000 in the required format. Check tests/postExample.json. Use reqbin.com (Chrome Extension required), Postman or any other alternative tool.
-2. GET requests parameters:
-2.1 REQUIRED: org_name
-2.2 OPTIONAL: page
+1. POST requests have to be sent to localhost:8000 in JSON and the required format. Check tests/postExample.json. Use reqbin.com (Chrome Extension required for a local server), Postman or any other alternative tool.
+2. GET requests parameters:  
+    2.1 REQUIRED: org_name  
+    2.2 OPTIONAL: page  
 3. Example GET request: http://localhost:8000/api?org_name=Black%20Banana&page=0
 
 ## Detailed example setup running php locally 
