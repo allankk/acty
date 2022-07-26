@@ -10,8 +10,8 @@ This assignment project sets up an API which adds organizations and their relati
 ## How-to
 1. Set up a MySQL server with an empty database.
 2. Modify the database parameters in dbConfig.php.
-3. Run api.php locally, which handles GET and POST requests (php -S localhost:8000 api.php)
-4. OPTIONAL: Run tests/populateDB.php to populate the database with example data.
+3. Run api.php locally as a server, which handles GET and POST requests (`php -S localhost:8000 api.php`)
+4. OPTIONAL: Run tests/populateDB.php to populate the database with example data. (`php populateDB.php`)
 
 ### Sending POST and GET requests
 1. POST requests have to be sent to localhost:8000 in JSON and the required format. Check tests/postExample.json. Use reqbin.com (Chrome Extension required for a local server), Postman or any other alternative tool.
